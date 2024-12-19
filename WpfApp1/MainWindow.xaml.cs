@@ -16,18 +16,9 @@ namespace WpfApp1;
 /// </summary>
 public partial class MainWindow : Window
 {
-    private int n = 0;
     public MainWindow()
     {
         InitializeComponent();
         
-    }
-
-    private void BtnRun_OnClick(object sender, RoutedEventArgs e)
-    {
-        n++;
-        
-        btnRun.Content = "Clicked " + n.ToString() + " times";
-        tbHello.Text = tbHello.Text == "Hello World" ? "Bye World" : "Hello World";
     }
 }
