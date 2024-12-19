@@ -1,3 +1,4 @@
 ﻿.idea
 bin
-obj
+obj/**/*
+WpfApp1/bin/**/*
